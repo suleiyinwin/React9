@@ -2,9 +2,11 @@
 import './App.css';
 import './components/Card'
 import './index.css'
+import './styles/form.css'
 import Card from './components/Card';
 import List from './components/List'
 import TypeMe from './components/TypeMe';
+import MyForm from './components/MyForm';
 
 function App() {
   const user={name :"John Doe", job:"Engineer",hobby:"Listen to music"}
@@ -14,6 +16,7 @@ function App() {
       <Card user={user} />
       <List users={users}/>
       <TypeMe/>
+      <MyForm/>
     </div>
   );
 }
