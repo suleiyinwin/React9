@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+
 export default function TypeMe(){
     const [isOn,setIsOn]= useState(false);
     function Focus(){
